@@ -12,5 +12,8 @@ abstract class NetRepo<T> {
     protected val mService by lazy {
         NetClient.getRetrofit(mBaseUrl).create(mServiceClz)
     }
+
 }
+
+
 
